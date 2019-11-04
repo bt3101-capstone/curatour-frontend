@@ -1,7 +1,7 @@
   <template>
-  
+
   <div class="wordcloud">
-    <wordcloud      
+    <wordcloud
       :data="defaultWords[sliderValue]"
       nameKey="name"
       valueKey="value"
@@ -10,7 +10,7 @@
       spiral="rectangular">
     </wordcloud>
     <b-field label="Select Period">
-      <b-slider v-model="sliderValue" :min="0" :max="3" aria-label="Fan" :tooltip="false" @change="changeData">
+      <b-slider v-model="sliderValue" type="is-info"  rounded :min="0" :max="3" aria-label="Fan" :tooltip="false" @change="changeData">
           <b-slider-tick :value="0">1 Day</b-slider-tick>
           <b-slider-tick :value="1">1 Week</b-slider-tick>
           <b-slider-tick :value="2">1 Month</b-slider-tick>

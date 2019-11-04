@@ -6,8 +6,6 @@
                     src="../assets/curatour_navbar.png"
                 >
             </b-navbar-item>
-        </template>
-        <template slot="end">
             <b-navbar-item class='headercontent' href="/home">
                 Your Performance
             </b-navbar-item>
@@ -15,11 +13,15 @@
                 What's Trending
             </b-navbar-item>
             <b-navbar-item class='headercontent' href="/blogs">
-              List of Blogs Analysed 
+              List of Blogs Analysed
             </b-navbar-item>
-            <b-navbar-item class='headercontent' href="/about">
-              About
-            </b-navbar-item>
+        </template>
+        <template slot="end">
+          <b-navbar-item tag="div">
+            <a class="button is-light" href="/about">
+                About
+            </a>
+          </b-navbar-item>
         </template>
     </b-navbar>
 </template>
@@ -34,9 +36,9 @@ export default {
 
 <style>
 .header{
-  background-color: #ED4933;
+  background-color: white;
 }
 .headercontent{
-  color: black;
+  color: #ED4933;
 }
 </style>
