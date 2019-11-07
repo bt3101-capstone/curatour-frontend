@@ -18,9 +18,9 @@
         </template>
         <template slot="end">
           <b-navbar-item tag="div">
-            <a class="button is-light" href="/about">
+            <b-button class="is-danger" outlined href="/about">
                 About
-            </a>
+            </b-button>
           </b-navbar-item>
         </template>
     </b-navbar>
@@ -38,7 +38,8 @@ export default {
 .header{
   background-color: white;
 }
-.headercontent{
+.headercontent {
   color: #ED4933;
 }
+
 </style>
