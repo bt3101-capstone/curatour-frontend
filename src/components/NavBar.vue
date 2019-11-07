@@ -40,6 +40,7 @@ export default {
 }
 .headercontent {
   color: #ED4933;
+  padding: 20px;
 }
 
 </style>
