@@ -1,7 +1,7 @@
 <template>
   <div id="about">
     <div class="box">
-      hi
+      For you, by us. Curatour's Performance Dashboard provides specifically designed metrics to help you better analyze web-user trends in the travel industry and how to monetize your content.
     </div>
   </div>
 </template>
