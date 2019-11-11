@@ -1,7 +1,7 @@
 <template>
   <div id="blogList">
-    <div class="columns is-multiline" v-for="row in :formattedBlogs">
-      <div class="column" v-for="blogList in :row">
+    <div class="columns is-multiline" v-for="row in formattedBlogs">
+      <div class="column" v-for="blogList in row">
         <div class="box">
           {{blogList.blog}}
         </div>
