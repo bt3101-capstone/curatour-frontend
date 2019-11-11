@@ -100,7 +100,7 @@
               <div class="level-item">
                 <div class="">
                   <div class="heading">Per Million</div>
-                  <div class="title is-5">{{historicalData.reach.perMillion}}</div>
+                  <div class="title is-5">{{historicalData.reach.perMillion.toFixed(2)}}</div>
                 </div>
               </div>
               <div class="level-item">
@@ -267,7 +267,8 @@ export default {
       blogInput:false,
       trafficData:[], 
       startDate: moment().subtract(6, 'days').format('YYYY-MM-DD'),
-      endDate: moment().format('YYYY-MM-DD'),
+      // endDate: moment().format('YYYY-MM-DD'),
+      endDate: '2019-11-11',
     }
   },
   mounted () {
