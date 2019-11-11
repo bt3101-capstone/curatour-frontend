@@ -17,8 +17,8 @@
             </b-navbar-item>
         </template>
         <template slot="end">
-          <b-navbar-item tag="div">
-            <b-button class="is-danger" outlined href="/about">
+          <b-navbar-item href="about">
+            <b-button class="is-danger">
                 About
             </b-button>
           </b-navbar-item>
