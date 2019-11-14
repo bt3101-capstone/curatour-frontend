@@ -57,7 +57,7 @@
               <div class="level-item">
                 <div class="">
                   <div class="heading">Median Load Time</div>
-                  <div class="title is-5">{{trafficData.speed.medianLoadTime}}</div>
+                  <div class="title is-5">{{trafficData.speed.medianLoadTime}} milliseconds</div>
                 </div>
               </div>
             </div>
